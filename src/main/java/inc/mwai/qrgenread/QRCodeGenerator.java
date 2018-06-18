@@ -50,10 +50,10 @@ public class QRCodeGenerator {
 
     private static void generateDummyData() {
         try {
-        String id = "21976606";
-        String name =  "Robert Njuguna";
-        String company_name =  "Kass Media";
-        String designation =  "Creative";
+        String id = "2897xxx3";
+        String name =  "Allison Harper";
+        String company_name =  "Next Media";
+        String designation =  "Space Engineer";
         String valid_thru ="6/2023";
 
         QR_CODE_IMAGE_PATH = QR_CODE_IMAGE_PATH + name + ".png";
