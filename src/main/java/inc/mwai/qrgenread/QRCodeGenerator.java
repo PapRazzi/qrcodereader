@@ -65,8 +65,7 @@ public class QRCodeGenerator {
         System.out.println(employee);
 
         generateQRCodeImage(employeeJSON, 100, 100, QR_CODE_IMAGE_PATH);
-        QR_CODE_IMAGE_PATH = "./QRCODES/";
-         } catch (WriterException e) {
+        } catch (WriterException e) {
             System.out.println("Could not generate QR Code, WriterException :: " + e.getMessage());
         } catch (IOException e) {
             System.out.println("Could not generate QR Code, IOException :: " + e.getMessage());
@@ -97,7 +96,7 @@ public class QRCodeGenerator {
                 System.out.println(guestJSON);
 
                 generateQRCodeImage(guestJSON, 100, 100, QR_CODE_IMAGE_PATH);
-                QR_CODE_IMAGE_PATH = "./QRCODES/";
+                
             }
 
         } catch (WriterException e) {
