@@ -96,7 +96,6 @@ public class QRCodeGenerator {
                 System.out.println(guestJSON);
 
                 generateQRCodeImage(guestJSON, 100, 100, QR_CODE_IMAGE_PATH);
-                
             }
 
         } catch (WriterException e) {
